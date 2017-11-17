@@ -151,7 +151,7 @@ void Pcapop::PushContent()
     int t=0;
 
     QString num =ui->lineEdit_4->text();
-    qDebug()<<num;
+    //qDebug()<<num;
     int numb=num.toInt()-1;
     num.clear();
     QByteArray* temp=pacdata.packets[numb].getdata();
